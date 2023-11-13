@@ -1,4 +1,6 @@
 //your JS code here. If required.
-function acciojob();
+function acciojob(){
+	console.log(arguments.callee.name);
+};
 
-console.log(acciojob.name);
+acciojob();

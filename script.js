@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function acciojob(){
-	alert(functionName.name);
+	return (arguments.callee.name);
 };
 
-acciojob();
+alert(acciojob());
